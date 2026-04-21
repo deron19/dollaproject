@@ -1,0 +1,206 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.dollagroup.com/#organization",
+      "name": "PT Dolla Group Indonesia",
+      "alternateName": [
+        "DGI",
+        "Dolla Group",
+        "PT Indo Armada Berat"
+      ],
+      "url": "https://www.dollagroup.com",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://www.dollagroup.com/#logo",
+        "url": "https://www.dollagroup.com/assets/images/LOGO.PNG",
+        "contentUrl": "https://www.dollagroup.com/assets/images/LOGO.PNG",
+        "width": 512,
+        "height": 512,
+        "caption": "Logo PT Dolla Group Indonesia"
+      },
+      "image": {
+        "@id": "https://www.dollagroup.com/#logo"
+      },
+      "description": "PT Dolla Group Indonesia - Solusi alat berat terpercaya dengan 150+ unit excavator, crane, bulldozer, dan dump truck untuk proyek konstruksi Indonesia.",
+      "foundingDate": "2011",
+      "founders": [
+        {
+          "@type": "Person",
+          "name": "Direktur Utama PT Dolla Group Indonesia"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Sumatra Blok F no.5 KBN Cakung",
+        "addressLocality": "Jakarta Utara",
+        "addressRegion": "DKI Jakarta",
+        "postalCode": "14130",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-6.1667",
+        "longitude": "106.9167"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-811-636-9139",
+          "contactType": "sales",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "Indonesian",
+            "English"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-811-636-9139",
+          "contactType": "customer service",
+          "areaServed": "ID",
+          "availableLanguage": [
+            "Indonesian",
+            "English"
+          ]
+        }
+      ],
+      "sameAs": [
+        "https://facebook.com/dollagroup",
+        "https://instagram.com/dollagroup",
+        "https://linkedin.com/company/dollagroup",
+        "https://youtube.com/dollagroup"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Layanan Alat Berat",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Sewa Alat Berat",
+              "description": "Penyewaan excavator, crane, bulldozer, dump truck harian hingga bulanan dengan operator profesional"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Jual Beli Alat Berat",
+              "description": "Transaksi alat berat bekas dan baru dengan harga kompetitif dan proses cepat"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Dismantling & Loading",
+              "description": "Layanan pembongkaran dan pemuatan alat berat yang aman dan terorganisir"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gudang & Penitipan Alat Berat",
+              "description": "Penyimpanan alat berat di gudang luas dengan keamanan 24 jam"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.dollagroup.com/#website",
+      "url": "https://www.dollagroup.com",
+      "name": "PT Dolla Group Indonesia",
+      "description": "Heavy Equipment Specialist Indonesia",
+      "publisher": {
+        "@id": "https://www.dollagroup.com/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.dollagroup.com/search?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.dollagroup.com/#webpage",
+      "url": "https://www.dollagroup.com/",
+      "name": "PT Dolla Group Indonesia | Sewa & Jual Beli Alat Berat",
+      "isPartOf": {
+        "@id": "https://www.dollagroup.com/#website"
+      },
+      "about": {
+        "@id": "https://www.dollagroup.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://www.dollagroup.com/#logo"
+      },
+      "description": "PT Dolla Group Indonesia - Solusi alat berat terpercaya dengan 150+ unit untuk proyek konstruksi Indonesia",
+      "breadcrumb": {
+        "@id": "https://www.dollagroup.com/#breadcrumb"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.dollagroup.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Beranda",
+          "item": "https://www.dollagroup.com/"
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "name": "PT Dolla Group Indonesia",
+      "image": "https://www.dollagroup.com/assets/images/LOGO.PNG",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Sumatra Blok F no.5 KBN Cakung",
+        "addressLocality": "Jakarta Utara",
+        "addressRegion": "DKI Jakarta",
+        "postalCode": "14130",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -6.1667,
+        "longitude": 106.9167
+      },
+      "url": "https://www.dollagroup.com",
+      "telephone": "+628116369139",
+      "priceRange": "Rp",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "150"
+      }
+    }
+  ]
+}

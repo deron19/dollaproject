@@ -1,0 +1,98 @@
+{
+  "name": "PT Dolla Group Indonesia",
+  "short_name": "Dolla Group",
+  "description": "Heavy Equipment Specialist Indonesia - Sewa dan Jual Beli Alat Berat Excavator, Crane, Bulldozer, Dump Truck",
+  "start_url": "../",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#FFC107",
+  "orientation": "portrait-primary",
+  "lang": "id",
+  "dir": "ltr",
+  "scope": "../",
+  "icons": [
+    {
+      "src": "../assets/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "../assets/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "../assets/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "../assets/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "../assets/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "../assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "../assets/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "../assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["business", "construction", "heavy equipment"],
+  "screenshots": [
+    {
+      "src": "../assets/screenshots/homepage.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Homepage PT Dolla Group Indonesia"
+    },
+    {
+      "src": "../assets/screenshots/mobile.jpg",
+      "sizes": "750x1334",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Tampilan Mobile"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Katalog Alat Berat",
+      "short_name": "Katalog",
+      "description": "Lihat katalog alat berat kami",
+      "url": "../catalog",
+      "icons": [{ "src": "../assets/icons/catalog.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Hubungi Kami",
+      "short_name": "Kontak",
+      "description": "Informasi kontak dan lokasi",
+      "url": "../contact",
+      "icons": [{ "src": "../assets/icons/contact.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

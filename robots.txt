@@ -1,0 +1,47 @@
+# ============================================
+# ROBOTS.TXT - PT DOLLA GROUP INDONESIA
+# ============================================
+
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /css/
+Allow: /js/
+Allow: /icons/
+
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Disallow: /*.pdf$
+Disallow: /*.doc$
+
+# Crawl-delay untuk server yang lebih kecil
+Crawl-delay: 10
+
+# Sitemap
+Sitemap: https://www.dollagroup.com/sitemap.xml
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.webp$
+
+# Bing
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 10
+
+# Social Media Crawlers
+User-agent: Twitterbot
+Allow: /
+User-agent: facebookexternalhit
+Allow: /
