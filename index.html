@@ -100,7 +100,6 @@
     <link rel="preload" href="assets/images/logo.png" as="image" fetchpriority="high">
 <base target="_blank">
 <base target="_blank">
-<base target="_blank">
 </head>
 <body>
 
@@ -108,22 +107,7 @@
     <header class="sticky-header" role="banner" aria-label="Header utama">
         <img src="assets/images/logo.png" alt="Logo DOLLA Group Indonesia" class="header-logo" loading="lazy">
         <h1 class="header-title">DOLLA GROUP INDONESIA</h1>
-
-        <!-- Hamburger Menu Button (Mobile Only) -->
-        <button class="hamburger-btn" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mobile-nav">
-            <i class="fas fa-ellipsis-v" aria-hidden="true"></i>
-        </button>
-
-        <!-- Desktop Navigation -->
-        <nav class="section-nav header-nav desktop-nav" aria-label="Navigasi Utama">
-            <a href="#catalog" class="nav-pill">UNIT</a>
-            <a href="#services" class="nav-pill">LAYANAN</a>
-            <a href="#gallery" class="nav-pill">GALERI</a>
-            <a href="#contact" class="nav-pill">KONTAK</a>
-        </nav>
-
-        <!-- Mobile Navigation (Hidden by default) -->
-        <nav class="mobile-nav" id="mobile-nav" aria-label="Navigasi Mobile">
+        <nav class="section-nav header-nav" aria-label="Navigasi Utama">
             <a href="#catalog" class="nav-pill">UNIT</a>
             <a href="#services" class="nav-pill">LAYANAN</a>
             <a href="#gallery" class="nav-pill">GALERI</a>
@@ -713,37 +697,6 @@
         window.addEventListener('scroll', function() {
             document.body.classList.toggle('scrolled', window.scrollY > 50);
         });
-
-        // Hamburger menu toggle
-        const hamburgerBtn = document.querySelector('.hamburger-btn');
-        const mobileNav = document.querySelector('.mobile-nav');
-
-        if (hamburgerBtn && mobileNav) {
-            hamburgerBtn.addEventListener('click', function() {
-                const isExpanded = this.getAttribute('aria-expanded') === 'true';
-                this.setAttribute('aria-expanded', !isExpanded);
-                mobileNav.classList.toggle('active');
-                this.classList.toggle('active');
-            });
-
-            // Close menu when clicking a link
-            mobileNav.querySelectorAll('a').forEach(link => {
-                link.addEventListener('click', function() {
-                    hamburgerBtn.setAttribute('aria-expanded', 'false');
-                    mobileNav.classList.remove('active');
-                    hamburgerBtn.classList.remove('active');
-                });
-            });
-
-            // Close menu when clicking outside
-            document.addEventListener('click', function(e) {
-                if (!hamburgerBtn.contains(e.target) && !mobileNav.contains(e.target)) {
-                    hamburgerBtn.setAttribute('aria-expanded', 'false');
-                    mobileNav.classList.remove('active');
-                    hamburgerBtn.classList.remove('active');
-                }
-            });
-        }
     </script>
 </body>
 
