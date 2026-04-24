@@ -1,2 +1,1 @@
 # dollaproject
-![background](background.png)
